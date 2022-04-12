@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>YOLO</title>
+
+  </head>
+  <style media="screen">
+    @font-face {
+    font-family: Fredoka;
+    src: url(FredokaOne-Regular.ttf);
+}
+    *{
+      font-family: Fredoka;
+    }
+    body{
+      margin:0;
+
+    }
+      .wrapper{
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        position:absolute;
+        height:100%;
+        width:100%;
+        background: linear-gradient(rgba(236, 99, 94, 1), rgba(245, 192, 106, 1));
+      }
+      .center-screen {
+        position:absolute;
+        top: 50%;
+        align-items:center;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      .hero{
+        color:white;
+        font-size: 5rem;
+      }
+      .icons{
+        display:flex;
+        flex-direction:row;
+      }
+
+      img{
+        transition:0.1s all;
+      }
+
+      img:hover{
+        transition:0.1s all;
+        transform:scale(1.1);
+      }
+
+  </style>
+  <body>
+    <div class="wrapper">
+      <div class="center-screen">
+        <h1 class="hero">YOLO</h1>
+        <div class="icons">
+          <a href="">
+            <img src="ios.png" style="width:150px; padding: 8px">
+          </a>
+          <a href="">
+            <img src="android.png" style="width:150px; padding:8px;">
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </body>
+</html>
