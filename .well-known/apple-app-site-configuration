@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [ "TDQ85LM83X.com.4architmehta.Yolo" ],
+                "components": [
+                    {
+                        "/": "/event/*",
+                        "comment": "Matches any URL whose path starts with /event/"
+                    }
+                ]
+            }
+        ]
+    }
+}
