@@ -11131,8 +11131,7 @@ button:focus {
 .foi-footer {
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #ffc107;
-  background-size: cover;
+  background-color: rgba(231, 112, 45, 1);
 }
 .foi-footer .footer-content {
   padding-bottom: 34px;
