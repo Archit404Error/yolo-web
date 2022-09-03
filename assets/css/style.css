@@ -10959,8 +10959,8 @@ button:focus {
 }
 
 .btn-app-download {
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: #ffffff;
   border: 1px solid #f0f0f0;
@@ -11129,12 +11129,9 @@ button:focus {
 }
 
 .foi-footer {
-  padding-top: 500px;
-  padding-bottom: 110px;
-  background-color: #ffffff;
-  background-image: url(../images/Footer_bg.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(231, 112, 45, 1);
 }
 .foi-footer .footer-content {
   padding-bottom: 34px;
